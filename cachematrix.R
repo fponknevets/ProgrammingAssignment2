@@ -3,8 +3,8 @@
 ## coursera.org/learn/r-programming/peer/tNy8H/programming-assignment-2-lexical-scoping
 
 
-## Functions to create and special matrix which can cache its inverse and can
-## returns the cached inverse
+## Functions to create a special matrix which can cache its inverse and can
+## return the cached inverse
 
 ## makeCacheMatrix: creates a special "matrix" object that can cache its inverse.
 
@@ -23,8 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve: computes the inverse of the special "matrix" returned
-## by makeCacheMatrix
+## cacheSolve: computes the inverse of the special "matrix" returned by
+## makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         i <- x$getinv()
